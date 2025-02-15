@@ -7,5 +7,9 @@ located in /bootable
 run the command:
 
 ```
- mkisofs -R -V "EXECUTABLE" -b boot/grub/core.img -no-emul-boot -boot-load-size 4 -boot-info-table -o salida.iso iso
+ mkisofs -R -V "EXECUTABLE" -b boot/grub/core.img -no-emul-boot -boot-load-size 4 -boot-info-table -o salida.iso iso iso
+```
+
+```
+sudo mount -o loop salida.iso /mnt/iso
 ```
