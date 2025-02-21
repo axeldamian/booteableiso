@@ -13,7 +13,7 @@ run the command:
 ```
 
 ```
-sudo mount -o loop salida.iso /mnt/iso
+sudo mount -o loop programa.iso /mnt/iso
 ```
 
 ```
