@@ -12,10 +12,12 @@ run the command:
  mkisofs -o programa.iso -V "Programa" -b boot/grub/core.img -no-emul-boot -boot-load-size 4 -boot-info-table -R -J -graft-points ./iso
 ```
 
+to mount the iso:
 ```
 sudo mount -o loop programa.iso /mnt/iso
 ```
 
+see information about the iso:
 ```
 isoinfo -d -i programa.iso
 ```
